@@ -1,2 +1,2 @@
 # JavaScript-Projects
- A place to store my projects worked on in the JavaScript course with The Tech Academy.
+ A place to store my JavaScript projects that I work on while in The Tech Academy.

@@ -4,7 +4,7 @@ var Family = "The Shicks", //assigning string values to multiple variables
     Daughter = "Carly",
     Son1 = "Benjamin",
     Son2 = "Zachary";
-
+Resize = "You have resized the page!"
 
 var Family = Family.fontcolor("blue"); //adding color to the text and the using document write to display
 document.write(Family);

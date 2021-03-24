@@ -5,7 +5,7 @@ function My_Second_Function() {
 }
 
 function myFunction() {
-    var sentence = "I am learning";
-    sentence += " a lot from this course!";
-    document.getElementById("Concatenate").innerHTML = sentence;
+    var sentence = "I am learning"; //defining a new sentence vaiable
+    sentence += " a lot from this course!"; //concatenating the sentence with an additional string
+    document.getElementById("Concatenate").innerHTML = sentence; //telling the script what ID to I was it to display the function result in.
 }

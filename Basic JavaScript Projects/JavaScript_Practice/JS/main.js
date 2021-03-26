@@ -20,3 +20,6 @@ function my_Dictionary() {
     };
     document.getElementById("Dictionary").innerHTML = Animal.Sound;
 }
+
+function my_Function() {
+    document.write(2E310);

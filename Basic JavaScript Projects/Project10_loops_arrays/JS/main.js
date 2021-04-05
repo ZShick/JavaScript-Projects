@@ -67,3 +67,34 @@ function return_function() { //using the "return" statement and getting the func
     }
     document.getElementById("answer").innerHTML = X;
 }
+
+let console = { //creates an object using the "keyword" and then calls a function to combine the different elements into a readable string as a description of the console.
+    company: "Microsoft ",
+    model: "XBox One ",
+    storage: "500 GB ",
+    color: "Black ",
+    description: function() {
+        return "The console is a " + this.color + this.storage + this.company + this.model;
+    }
+};
+document.getElementById("Console_Object").innerHTML = console.description();
+
+function break_function() { //created a loop that should continue to count up to 10 but we caused it to take a break from the loop until instructed to go back. Here, it only counts up to 4.
+    var text = "";
+    var i;
+    for (i = 0; i < 10; i++) {
+        if (i === 5) { break; }
+        text += "The number is " + i + "<br>";
+    }
+    document.getElementById("break").innerHTML = text;
+}
+
+function continue_function() { //Created a loop that counts to 10 but skips 7 using a continue statement.
+    var text = "";
+    var i;
+    for (i = 0; i < 10; i++) {
+        if (i === 7) { continue; }
+        text += "The number is " + i + "<br>";
+    }
+    document.getElementById("continue").innerHTML = text;
+}
